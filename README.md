@@ -36,6 +36,11 @@
 - [官方pytorch教程](https://pytorch.org/tutorials/)和一个比较好的[教程](https://github.com/yunjey/pytorch-tutorial)
 - [tensorflow教程](https://github.com/aymericdamien/TensorFlow-Examples)
 
+### 作业详解
+
+- [**assignment1**](https://github.com/sharedeeply/cs231n-camp/tree/master/resource/assignment/assignment1)
+- [**assignment2**](https://github.com/sharedeeply/cs231n-camp/tree/master/resource/assignment/assignment2)
+
 
 ## 前言
 对于算法工程师，不同的人的认知角度都是不同的，我们通过下面三个知乎的高票回答帮助大家了解算法工程师到底需要做什么样的事，工业界需要什么样的能力
@@ -47,9 +52,11 @@
 [论算法工程师首先是个工程师之深度学习在排序应用踩坑总结](https://zhuanlan.zhihu.com/p/44315278)
 
 ### 作业提交指南
-**注意: 我们提供了免费的云环境配置[文字教程](https://github.com/sharedeeply/cs231n-camp/tree/master/resource/colab.md)和视频教程，如果大家不想自己配置本地环境，可以使用colab云平台!!!**
+**注意: 我们提供了免费的云环境配置文字教程和视频教程，如果大家不想自己配置本地环境，可以使用colab云平台!!!**
 
-**作业提交的具体操作流程:** [CV作业提交详解](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment_submission.md)
+**Colab使用系列**：[Colab基础教程](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/colab/colab.md)，[Colab之GPU](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/colab/Colab%E4%B9%8BGPU.md)，[Colab作业完整部署](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/colab/Colab%E4%B9%8B%E4%BD%9C%E4%B8%9A%E5%AE%8C%E6%95%B4%E9%83%A8%E7%BD%B2.md)
+
+**作业提交的具体操作流程:** [CV作业提交详解](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/homework/assignment_submission.md)
 
 训练营的作业自检系统已经正式上线啦！只需将作业发送到训练营公共邮箱即可，知识圈以打卡为主，不用提交作业。以下为注意事项:  
 <0> 训练营代码公共邮箱：cs231n@163.com  
@@ -58,6 +65,8 @@
 [CV一期训练营](https://shimo.im/sheet/O1GxWoA41j4kW3Sg/787b4/)  
 [CV二期训练营](https://shimo.im/sheet/yPhRjSQ4284NyeZo/c46b5/)   
 [CV三期训练营](https://shimo.im/sheet/jijhhvgGEJM5DkTk/08d81/)    
+
+[CV四期训练营](https://shimo.im/sheet/7CGffwHzxKoxbL6j/)
 
 <2> 先将完成的作业改名为“训练营期数-学号-作业编号”，例如："一期-CV0001-assignment1"，然后压缩成 zip 文件，zip 文件名也为"训练营期数-学号-作业编号.zip"，例如: "一期-CV0001-assignment1.zip"，务必确保学号填写正确  
 
@@ -92,6 +101,7 @@
 4. 作业   
 - (热身)写一个矩阵的类，实现矩阵乘法，只能使用 python 的类(class)和列表(list)
 - 完成assignment1 中的 `knn.ipynb`
+- 作业详解：[knn.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment1/knn.md)
 
 
 ### Week2
@@ -112,6 +122,7 @@
 4. 作业
 - 简述 KNN 和线性分类器的优劣, 打卡上传知知识圈
 - 完成assignment1 中 `svm.ipynb`
+- 作业详解：[svm.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment1/svm.md)
 
 
 ### Week3
@@ -130,6 +141,8 @@
 4. 作业
 - 完成 assignment1 中的 `softmax.ipynb`
 - 完成 assignment1 中的 `two_layer_net.ipynb`
+- 作业详解1：[Softmax.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment1/Softmax.md)
+- 作业详解2：[two_layer_net.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment1/two_layer_net.md)
 
 ### Week4
 1. 掌握 PyTorch 中的基本操作
@@ -139,13 +152,12 @@
 - 了解比赛[房价预测](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 - 学习[模板代码](https://github.com/L1aoXingyu/kaggle-house-price)
 
-3. 学习 PyTorch 中的数据读取
-- 学习[官方教程](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html)
-- 学习[中文笔记](https://l1aoxingyu.github.io/2017/10/23/PyTorch%E5%AE%9E%E7%8E%B0%E8%87%AA%E7%94%B1%E7%9A%84%E6%95%B0%E6%8D%AE%E8%AF%BB%E5%8F%96/)
+3. 学习深度学习的系统[项目模板](https://github.com/L1aoXingyu/PyTorch-Project-Template)
 
 4. 作业
 - 完成 assignment1 中的 `features.ipynb`
 - 修改房价预测的代码，在知识圈上提交 kaggle 的成绩
+- 作业详解：[features.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment1/features.md)
 
 
 ### Week5
@@ -165,6 +177,8 @@
 4. 作业
 - 思考一下卷积神经网络对比传统神经网络的优势在哪里？为什么更适合处理图像问题，知识圈打卡上传
 - 完成 assignment2 中 `FullyConnectedNets.ipynb`
+- 作业详解：[FullyConnectedNets1.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment2/FullyConnectedNets1.md)
+- 作业详解：[FullyConnectedNets2.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment2/FullyConnectedNets2.md)
 
 
 ### Week6
@@ -184,6 +198,8 @@
 4. 作业
 - 完成 assignment2 中 `BatchNormalization.ipynb`
 - 完成 assignment2 中 `Dropout.ipynb`
+- 作业详解：[BatchNormalization.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment2/BatchNormalization.md)
+- 作业详解：[Dropout.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment2/FullyConnectedNets2.md)
 
 
 ### Week7
@@ -202,6 +218,7 @@
 4. 作业
 - 完成 assignment2 中 `ConvolutionNetworks.ipynb`
 - 修改 cifar10 的网络结构，在知识圈上提交 kaggle 成绩
+- 作业详解：[ConvolutionNetworks](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment2/ConvolutionNetworks.md)
 
 ### Week8
 1. 了解主流深度学习框架之间的区别与联系   
@@ -218,6 +235,7 @@
 4. 作业  
 - 完成 assignment2 中的 `PyTorch.ipynb` 
 - 学习[模板代码](https://github.com/L1aoXingyu/kaggle-plant-seeding), 尝试更大的网络结构完成 kaggle 比赛[种子类型识别](https://www.kaggle.com/c/plant-seedlings-classification)的比赛，在知识圈上提交 kaggle 成绩
+- 作业详解：[Pytorch.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment2/PyTorch.md)
 
 
 ### Week9
@@ -252,9 +270,7 @@
 
 4. 作业
 - 阅读论文 [Fully Convolutional Networks for Semantic Segmentation](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) 和[中文笔记](https://zhuanlan.zhihu.com/p/30195134)
-- 阅读论文 [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) 和一个详细的[讲解](https://docs.google.com/presentation/d/1rtfeV_VmdGdZD5ObVVpPDPIODSDxKnFSU0bsN_rgZXc/pub?start=false&loop=false&delayms=3000&slide=id.g178a005570_0_20175)
-- (可选) FCN 的[复现代码]()理解
-- (可选) SSD 的[复现代码]()理解
+- (可选) FCN 的[复现代码](https://github.com/L1aoXingyu/fcn.pytorch)理解
 
 ### Week11
 1. 理解卷积背后的原理 
@@ -271,7 +287,8 @@
 
 4. 作业
 - 完成 assignment3 中的 `NetworkVisualization-PyTorch.ipynb`
-- 完成 assignment3 中的 `StyleTransfer-PyTorch.ipynb`
+- 阅读论文 [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) 和一个详细的[讲解](https://docs.google.com/presentation/d/1rtfeV_VmdGdZD5ObVVpPDPIODSDxKnFSU0bsN_rgZXc/pub?start=false&loop=false&delayms=3000&slide=id.g178a005570_0_20175)
+- (可选) SSD 的[复现代码](https://github.com/L1aoXingyu/ssd.pytorch)理解
 
 ### Week12
 1. 掌握自动编码器和生成对抗网络的基本原理
@@ -288,4 +305,4 @@
 
 4. 作业
 - 完成 assignment3 中的 `GANs-PyTorch.ipynb`
-- 学习使用 DQN 玩 cartpole 的游戏
+- 完成 assignment3 中的 `StyleTransfer-PyTorch.ipynb`
