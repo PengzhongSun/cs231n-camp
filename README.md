@@ -4,7 +4,7 @@
 1. [课程主页](http://cs231n.stanford.edu/)  
 2. [英文笔记](http://cs231n.github.io/)  
 3. [中文笔记](https://zhuanlan.zhihu.com/p/21930884)  
-4. [课程视频](https://www.bilibili.com/video/av17204303/)  
+4. [课程视频](https://study.163.com/course/introduction.htm?courseId=1004697005#/courseDetail?tab=1)  
 5. [环境配置](https://github.com/sharedeeply/DeepLearning-StartKit)  
 6. [作业链接](https://github.com/sharedeeply/cs231n-camp/tree/master/assignment/assignment1)  
 7. [作业参考](https://github.com/sharedeeply/cs231n-assignment-solution)  
@@ -40,6 +40,7 @@
 
 - [**assignment1**](https://github.com/sharedeeply/cs231n-camp/tree/master/resource/assignment/assignment1)
 - [**assignment2**](https://github.com/sharedeeply/cs231n-camp/tree/master/resource/assignment/assignment2)
+- [**assignment3**](https://github.com/sharedeeply/cs231n-camp/tree/master/resource/assignment/assignment3)
 
 
 ## 前言
@@ -65,7 +66,6 @@
 [CV一期训练营](https://shimo.im/sheet/O1GxWoA41j4kW3Sg/787b4/)  
 [CV二期训练营](https://shimo.im/sheet/yPhRjSQ4284NyeZo/c46b5/)   
 [CV三期训练营](https://shimo.im/sheet/jijhhvgGEJM5DkTk/08d81/)    
-
 [CV四期训练营](https://shimo.im/sheet/7CGffwHzxKoxbL6j/)
 
 <2> 先将完成的作业改名为“训练营期数-学号-作业编号”，例如："一期-CV0001-assignment1"，然后压缩成 zip 文件，zip 文件名也为"训练营期数-学号-作业编号.zip"，例如: "一期-CV0001-assignment1.zip"，务必确保学号填写正确  
@@ -254,6 +254,7 @@
 - 完成 assignment3 中的 `RNN_Captioning.ipynb` 
 - 完成 assignment3 中的 `LSTM_Captioning.ipynb` 
 - 完成 coco 数据集上的 [image caption 小项目](https://github.com/udacity/CVND---Image-Captioning-Project)，[参考代码](https://github.com/L1aoXingyu/image-caption-project)
+- 作业详解：[RNN_Captioning.md](https://github.com/sharedeeply/cs231n-camp/blob/master/resource/assignment/assignment3/RNN_Captioning.md)
 
 
 ### Week10
